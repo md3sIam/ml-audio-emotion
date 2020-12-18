@@ -5,7 +5,7 @@ import os.path
 from collections import defaultdict
 
 
-DATA_PATH = os.path.normpath(os.path.join(os.getcwd(), 'Data'))
+DATA_PATH = os.path.normpath(os.path.join(os.getcwd(), '../Data'))
 AUDIO_METADATA_PATH = os.path.join(DATA_PATH, 'audio_metadata.csv')
 
 
